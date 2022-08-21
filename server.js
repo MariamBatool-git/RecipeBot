@@ -11,7 +11,7 @@ const app = express();
 // port to run our server
 const PORT = process.env.PORT || 3000;
 // uri to connect to mongoDB
-const MONGODB_URI = 'mongodb+srv://mariambatool:mary5376854@cluster0.hfxky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://mariambatool:lappypassword@cluster0.hfxky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 // connect to mongoDB
 mongoose.connect( MONGODB_URI || 'mongodb://localhost/RecipeBotDatabase');
 // run if successful connection
